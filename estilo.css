@@ -5,7 +5,7 @@
     font-family: 'Open Sans';
 }
 header{
-    background: url(img/header.jpg);
+    background: url(img/portada.jpg);
     background-size: cover;
     background-position:center;
     height: 300px;
@@ -17,6 +17,7 @@ header h1{
     color: #fff;
     padding: 30px 0;
 }
+
 .contenedor{
     max-width: 1200px;
     padding: 10px;
@@ -35,8 +36,8 @@ header h1{
     grid-row-gap: 30px;
     /* width: 60%; */
     width: 100%;
-    transition: .3s;
-}
+    transition: .3s;}
+
 .contenedor .contenedor-items .item{
     max-width: 200px;
     margin: auto;
